@@ -1,0 +1,34 @@
+.card {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  box-shadow: 0 0 15px #ccc;
+  padding: 10px;
+  margin: 15px 10px;
+  letter-spacing: 1px;
+  line-height: 1.4;
+  font-weight: 600;
+}
+.card-container {
+  width: 80%;
+  margin-top: 30px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  top: 100px;
+}
+.product-image {
+  margin: 0 auto;
+}
+hr {
+  width: 100%;
+  color: #ccc;
+}
+span {
+  color: crimson;
+  font-weight: 600;
+}

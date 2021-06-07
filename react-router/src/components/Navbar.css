@@ -1,0 +1,38 @@
+li {
+  list-style: none;
+}
+ul {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 0 15px #ccc;
+  background-color:whitesmoke;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.navlinks {
+  padding: 10px;
+  font-size: 1.3rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: 0.5s ease-in-out;
+  text-decoration: none;
+}
+
+.navlinks:hover {
+  background-color: lightgray;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+}

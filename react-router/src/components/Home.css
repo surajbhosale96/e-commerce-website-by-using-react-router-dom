@@ -1,0 +1,16 @@
+.home {
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+.home-heading {
+  letter-spacing: 5px;
+}
+.home-btn {
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 0 9px #ccc;
+  font-size: 1rem;
+  font-weight: 600;
+}
